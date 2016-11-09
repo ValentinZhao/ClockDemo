@@ -1,0 +1,14 @@
+Info: *******************************************************************
+Info: Running Quartus II Analysis & Synthesis
+    Info: Version 6.1 Build 201 11/27/2006 SJ Full Version
+    Info: Processing started: Wed Nov 09 17:09:45 2016
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off ClockDemo -c ClockDemo
+Info: Found 1 design units, including 1 entities, in source file p_clk_div.v
+    Info: Found entity 1: p_clk_div
+Error (10170): Verilog HDL syntax error at timer.v(9) near text "0";  expecting an identifier, or "[" File: D:/BaiduNetdiskDownload/ClockDemo/timer.v Line: 9
+Error (10112): Ignored design unit "timer" at timer.v(2) due to previous errors File: D:/BaiduNetdiskDownload/ClockDemo/timer.v Line: 2
+Info: Found 0 design units, including 0 entities, in source file timer.v
+Error: Quartus II Analysis & Synthesis was unsuccessful. 2 errors, 0 warnings
+    Info: Allocated 146 megabytes of memory during processing
+    Error: Processing ended: Wed Nov 09 17:09:45 2016
+    Error: Elapsed time: 00:00:00
